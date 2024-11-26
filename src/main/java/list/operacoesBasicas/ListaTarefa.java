@@ -36,13 +36,13 @@ public class ListaTarefa {
     public static void main(String[] args) {
         ListaTarefa listaTarefa = new ListaTarefa();
         System.out.println(listaTarefa.obterNumeroTarefas());
-//
-//        listaTarefa.adicionarTarefa("adcionando uma tarefa");
-//        listaTarefa.adicionarTarefa("adcionando uma tarefa2");
-//        System.out.println(listaTarefa.obterNumeroTarefas());
-//
-//        listaTarefa.removerTarefa("adcionando uma tarefa2");
-//        System.out.println(listaTarefa.obterNumeroTarefas());
+
+       listaTarefa.adicionarTarefa("adcionando uma tarefa");
+        listaTarefa.adicionarTarefa("adcionando uma tarefa2");
+        System.out.println(listaTarefa.obterNumeroTarefas());
+
+        listaTarefa.removerTarefa("adcionando uma tarefa2");
+        System.out.println(listaTarefa.obterNumeroTarefas());
 
         listaTarefa.imprimirTarefa();
     }
